@@ -1,0 +1,38 @@
+form.search {
+  overflow: auto;
+  margin-bottom: 10px;
+}
+
+form.search button[type="submit"] {
+  float: right;
+  margin-top: 10px;
+}
+
+.form-control{
+  width:40% !important;
+  /* margin-left: 31% !important; */
+}
+
+.form-group{
+  margin-left: 38% !important;
+  margin-bottom: 3% !important;
+}
+
+
+@media all and (max-width: 980px)
+{
+  .form-control{
+    width:120% !important;
+    margin-left: -35%;
+ 
+  }
+}
+
+@media all and (max-width: 760px)
+{
+  .form-control{
+   
+    margin-left: -45%;
+   
+  }
+}

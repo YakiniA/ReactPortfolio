@@ -1,0 +1,367 @@
+nav.navbar.navbar-default {
+    margin-bottom: 0;
+  }
+  
+  .navbar{
+    padding: 0px !important;
+  }
+  
+  .imgNav{
+    pointer-events: none;
+  }
+
+
+  * {
+	box-sizing: border-box;
+  }
+
+html, body{
+	height: 100%;
+	width: 100%;
+
+}
+
+.navbar{
+	background-color: #464747;
+	padding: 1% 0;
+	font-size: 19px;
+
+}
+
+.navBarImg{
+    margin-top: -110px;
+    margin-left: -65px;
+   
+}
+/* 
+.navbar-brand{
+    min-height:15px;
+    padding: 0 15px 5px; 
+}  */
+
+.links{
+    margin-right:25px;
+}
+
+/* .navbar-nav li a{
+    /* color: #D5D5D5; */
+   /* color: white;
+} */
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+
+/* .navbar-default navbar-nav li a:hover, .navbar-default .navbar-nav li a:active{
+    color: white;
+} */
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #a8a8a7;
+    background-color: transparent;
+}
+
+#home {
+    background: url('img/officeImg.jpg') center center fixed; 
+    display: table;
+    height: 100%; 
+ 	position:relative;
+	width:100%;
+    background-size: cover;
+    color: white;
+	/* background-attachment: fixed; */
+}
+.landing-text {
+    display: table-cell; 
+	text-align: center;
+	vertical-align: middle;
+} 
+
+
+.aboutus{
+	background-image: url('img/keyboardImg.jpg') ;
+	display: table;
+ 	position:relative;
+ 	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.lead{
+	border: 1px solid grey;
+	background-color: rgb(230, 225, 225);
+	width:75%;
+	padding:1%;
+}
+
+ul.list-group:after {
+	clear: both;
+	display: block;
+	content: "";
+  }
+  
+  .list-group-item {
+	  float: left;
+	  background-color: rgb(230, 225, 225);
+	  
+  }
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    margin: 8px 10px;
+    margin-left:15px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-color: white;
+}
+
+div.card:hover{
+    border: 1px solid black;
+}
+
+.imgResponsive{
+    max-width:380px;
+    height:auto;
+    margin-top: 15px !important; 
+}
+a.btn {
+    background: #0096a0;
+    border-radius: 4px;
+    box-shadow: 0 2px 0px 0 rgba(0, 0, 0, 0.25);
+    color: #ffffff;
+    display: inline-block;
+    padding: 6px 30px 8px;
+    position: relative;
+    text-decoration: none;
+    transition: all 0.1s 0s ease-out;
+    z-index: 10;
+}
+/* .padding{
+	padding: 25px 0;
+	background-color: rgb(195, 193, 193);
+} */
+
+.projects{
+	background-image: url('img/portfolioBackground.jpg');
+	display: table; 
+    position:relative;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-attachment: fixed;
+
+}
+
+footer{
+	width:100%;
+	height:100%;
+	display:table;
+	position: relative;
+	background-color: #464747;
+	padding: 5% 5% 10% 5%;
+	color: #FFF;
+
+}
+
+.icons{
+	padding: 15px;
+	font-size:30px !important;
+	color:#FFF;
+
+}
+
+.icons:hover{
+	color: #63bcfb;
+	text-decoration: none;
+	
+}
+
+.fa {
+	display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(0, 0);
+}
+
+.card-title{
+	font-size:22px;
+	font-weight: bold;
+} 
+.fa:hover{
+	color: #D5D5D5;
+	text-decoration: none;
+	
+}
+
+.card .card-image{
+    overflow: hidden;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.card .card-image img{
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.card{
+    font-family: 'Roboto', sans-serif; 
+    margin-top: 10px;
+    position: relative;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 4 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.card .card-content {
+    padding: 10px;    
+}
+
+.card .card-content .card-title .card-reveal {
+    font-size: 24px;
+    font-weight: 200;    
+}
+
+.card .card-action{
+    padding: 20px;
+    border-top: 1px solid rgba(160, 160, 160, 0.2);
+}
+.card .card-action a{
+    font-size: 15px;
+    color: white;
+    text-transform:uppercase;
+    margin-right: 20px;    
+    -webkit-transition: color 0.3s ease;
+    -moz-transition: color 0.3s ease;
+    -o-transition: color 0.3s ease;
+    -ms-transition: color 0.3s ease;
+    transition: color 0.3s ease;
+}
+.card .card-action a:hover{    
+    color:#ffd8a6;
+    text-decoration:none;
+}
+
+.card .card-reveal{    
+    padding: 20px;
+    position: absolute;
+    background-color: #FFF;
+    width: 100%;
+    overflow-y: auto;
+    left:0;
+    bottom:0;
+    height: 100%;
+    z-index: 1;
+    display: none;    
+}
+
+.card .card-reveal p{
+    color: rgba(0, 0, 0, 0.71);
+    margin:20px ;
+}
+
+.btn-custom{
+    background-color: transparent;
+    font-size:18px;
+}
+
+ @media only screen and (max-device-width: 415px) {
+   .landing-text h1{
+      font-size: 250%;
+   }
+   #home{
+       width:105%;
+   }
+
+   .aboutus, 
+   .projects{
+       width:105%;
+   }
+
+   footer{
+       width:105%;
+   }
+  } 
+
+  @media only screen and (max-device-width: 390px) {
+   
+    #home{
+        width:110%;
+    }
+ 
+    .aboutus,
+    .projects{
+        width:110%;
+    }
+
+    footer{
+        width:110%;
+    }
+   } 
+
+   @media only screen and (max-device-width: 363px) {
+   
+    #home{
+        width:120%;
+    }
+ 
+    .aboutus, 
+    .projects{
+        width:120%;
+    }
+   
+    footer{
+        width:120%;
+    }
+   } 
+
+   @media only screen and (max-device-width: 320px) {
+   
+    #home{
+        width:129%;
+    }
+ 
+    .aboutus{
+        width:123%;
+    }
+
+    .projects{
+        width:129%;
+    }
+  
+    footer{
+        width:129%;
+    }
+   } 
+
+   @media only screen and (max-device-width: 305px) {
+    
+    #home{
+        width:150%;
+    }
+ 
+    .aboutus,
+    .projects{
+        width:150%;
+    }
+    
+    footer{
+        width:150%;
+    }
+   } 
+ 

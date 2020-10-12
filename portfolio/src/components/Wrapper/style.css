@@ -1,0 +1,15 @@
+.wrapper {
+  /* min-height: 100%;
+  padding-bottom: 100px; */
+
+  background: url('GreenBackground.jpg'); 
+  display: table; 
+  height: 250%; 
+  position:relative;
+  width:100%;
+  background-size: cover !important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+
+}

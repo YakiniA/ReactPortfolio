@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root,
+#root > div,
+div[data-reactroot] {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+/* body{
+  min-height: 100vh;
+  padding-bottom: 60px; 
+  /* position: relative; */
+/*} */
