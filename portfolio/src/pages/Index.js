@@ -1,7 +1,9 @@
 import React, { Component } from "react";
 import Home from "../components/Home";
 import About from "../components/About";
+import Portfolio from "../components/Portfolio";
 
+import { Link } from "react-router-dom";
 
 class Index extends Component {
 
@@ -55,8 +57,9 @@ class Index extends Component {
 render(){
   return (
     <div>
-       <Home />
-       <About />
+        <Home />
+        <About />
+        <Portfolio />
     </div>
   );
   }

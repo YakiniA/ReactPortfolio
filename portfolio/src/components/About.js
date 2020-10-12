@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import myImg from "../img/MyImage.jpg"
 
 function About() {
 
@@ -8,7 +9,7 @@ function About() {
       <div className="container aboutus">
         <div className="row">
           <div className="col-sm-4 text-center">
-            <img src="img/MyImage.jpg" className="imgResponsive img-circle"></img>
+            <img src={myImg} className="imgResponsive img-circle"></img>
           </div>
           <div className="col-sm-8">
 

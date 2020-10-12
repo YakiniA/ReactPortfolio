@@ -14,7 +14,7 @@ function Navbar() {
             <span className="icon-bar"></span>
             <span className="icon-bar"></span>
           </button>
-        <a className="navbar-brand" href="#"><img src="{image}" className= "navBarImg" width="250" height="250"></img></a>
+        <a className="navbar-brand" href="#"><img src={image} className= "navBarImg" width="250" height="250"></img></a>
         </div>
 
       <div className="collapse navbar-collapse" id="navbar-collapse-main">
