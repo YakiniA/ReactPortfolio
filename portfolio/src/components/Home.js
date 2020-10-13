@@ -1,7 +1,8 @@
 import React, { Component } from "react";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-function Home() {
-
+class Home extends Component {
+render(){
   return (
     <div id ="home">
         <div className="landing-text">
@@ -12,6 +13,7 @@ function Home() {
         </div>
     </div>
   );
+  }
   }
 
 export default Home;

@@ -1,12 +1,14 @@
 import React, { Component } from "react";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import myImg from "../img/MyImage.jpg"
 
-function About() {
+class About extends Component {
 
+ render(){
   return (
     <div id="about">
     <div className="padding"> 
-      <div className="container aboutus">
+      <div className="aboutus">
         <div className="row">
           <div className="col-sm-4 text-center">
             <img src={myImg} className="imgResponsive img-circle"></img>
@@ -47,6 +49,7 @@ function About() {
     </div>
   </div>
   );
-  }
+ }
+}
 
 export default About;
