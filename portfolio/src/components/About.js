@@ -7,13 +7,13 @@ class About extends Component {
  render(){
   return (
     <div id="about">
-    <div className="padding"> 
-      <div className="aboutus">
+    <div className="aboutus padding"> 
+      <div className="container">
         <div className="row">
-          <div className="col-sm-4 text-center">
+          <div className="col-sm-3 text-center">
             <img src={myImg} className="imgResponsive img-circle"></img>
           </div>
-          <div className="col-sm-8">
+          <div className="col-sm-9">
 
             <h2>About Me</h2>
             <p className="lead">

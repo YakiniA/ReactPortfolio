@@ -10,8 +10,24 @@ import noteTaker from '../img/Screenshot.jpg';
 import readMeGenerator from '../img/ReadMeGenerator.jpg';
 import teamGenerator from '../img/TeamGenerator.gif';
 import employeeTracker from '../img/employee-tracker.gif';
+import $ from 'jquery';
 
 class Portfolio extends Component{
+
+  componentDidMount(){
+  $('.list-group-item').on('click', function (e) {
+    e.preventDefault();
+    $(this).addClass('active').siblings().removeClass('active');
+  });
+
+  $('.show-btn').on('click', function () {
+    $('div.card-reveal[data-rel=' + $(this).data('rel') + ']').slideToggle('slow');
+  });
+
+  $('.card-reveal .close').on('click', function () {
+    $('div.card-reveal[data-rel=' + $(this).data('rel') + ']').slideToggle('slow');
+  });
+  }
 
 render(){
 return(
