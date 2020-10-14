@@ -4,15 +4,11 @@ import React from 'react'
 
 export default function Projects(props) {
 
-
-  console.log(props);
     return (
         <div>    
             <div className="card" style={{width: 350}}>
               <div className="card-image">
-             
-                   <img src={props.image} className="card-img-top" alt="Fight club" style={{width: "100%"}}></img>
-            
+                   <img src={props.image} className="card-img-top" alt={props.title} style={{width: "100%"}}></img>
                 </div>
 
               <div className="card-content">
@@ -28,7 +24,7 @@ export default function Projects(props) {
                   data-placement="top" title="View Online" className="btn btn-info btn-lg mr-3">
                   <i className="fa fa-external-link"></i>
                 </a>
-                <a href={props.href} target="_blank" data-toggle="tooltip"
+                <a href={props.source} target="_blank" data-toggle="tooltip"
                   data-placement="top" title="View Source" className="btn btn-info btn-lg ">
                   <i className="fa fa-github"></i>
                 </a>
