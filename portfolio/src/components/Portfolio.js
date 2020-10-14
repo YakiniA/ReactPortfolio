@@ -56,10 +56,8 @@ function Portfolio() {
               <div className="row">
 
                 {_.zip(projectsInfo.projects, projectsInfo.portfolioImg).map(value => (
-                  console.log(value),
-                  // console.log(value.id),
-                  <Projects
-                    image={value[1].portfolioImg}
+                  <Projects key={value[0].id}
+                    image={value[1]}
                     id={value[0].id}
                     title={value[0].title}
                     href={value[0].href}

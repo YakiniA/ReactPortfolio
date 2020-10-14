@@ -7,10 +7,7 @@ export default function Projects(props) {
 
   console.log(props);
     return (
-        <div>
-             
-           
-                
+        <div>    
             <div className="card" style={{width: 350}}>
               <div className="card-image">
              
