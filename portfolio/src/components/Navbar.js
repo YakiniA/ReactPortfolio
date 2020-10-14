@@ -13,10 +13,10 @@ import image from '../img/YARecent.png';
     <nav className="navbar navbar-expand-md">
     <a className="navbar-brand" href="/"><img src={image} className= "navBarImg" width="250" height="250"></img></a>
     <button className="custom-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapseEx"  aria-controls="navbarCollapseEx" aria-expanded={!isNavCollapsed ? true : false} aria-label="Toggle navigation" onClick={handleNavCollapse}>
-      <span class="navbar-toggler-icon"></span>
+      <span className="navbar-toggler-icon"></span>
     </button>
 
-    <div class={`${isNavCollapsed ? 'collapse' : ''} navbar-collapse`}  id="navbarCollapseEx" >
+    <div className={`${isNavCollapsed ? 'collapse' : ''} navbar-collapse`}  id="navbarCollapseEx" >
       <ul className="navbar-nav navbar-right mr-auto">
         <li className="nav-item">
           <a className="nav-link" href="#home">Home </a>
