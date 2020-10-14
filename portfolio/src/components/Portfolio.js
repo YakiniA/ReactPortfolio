@@ -1,6 +1,6 @@
-import React, { Component } from "react";
+import React, { Component, useState, useEffect } from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import fightClub from '../img/welcomePage.png'; 
+import fightClub from '../img/welcomePage.png';
 import spaceExploration from '../img/spaceexplorationportfolio.jpg';
 import codingQuiz from '../img/CodingQuizPortfolio.jpg';
 import weatherDashboard from '../img/WeatherDashboardportfolio.jpg';
@@ -13,16 +13,16 @@ import employeeTracker from '../img/employee-tracker.gif';
 import projects from "../projects.json";
 import Projects from './Projects';
 import $ from 'jquery';
+import _ from 'lodash';
 
-class Portfolio extends Component{
+function Portfolio() {
 
-  state = {
-   
-    img : [fightClub, spaceExploration, codingQuiz, weatherDashboard, workScheduler, burgerAppln, noteTaker, readMeGenerator, teamGenerator, employeeTracker],
-    projects
-  };
+  const [projectsInfo, setProjectsInfo] = useState({
+    projects,
+    portfolioImg: [fightClub, spaceExploration, codingQuiz, weatherDashboard, workScheduler, burgerAppln, noteTaker, readMeGenerator, teamGenerator, employeeTracker]
+  });
 
-  componentDidMount(){
+  useEffect(() => {
     $('.list-group-item').on('click', function (e) {
       e.preventDefault();
       $(this).addClass('active').siblings().removeClass('active');
@@ -35,10 +35,11 @@ class Portfolio extends Component{
     $('.card-reveal .close').on('click', function () {
       $('div.card-reveal[data-rel=' + $(this).data('rel') + ']').slideToggle('slow');
     });
-  }
+  }, [])
 
-render(){
-  return(
+
+
+  return (
     <div>
       <div id="portfolio">
         <div className="projects padding">
@@ -53,26 +54,28 @@ render(){
 
             <div className="text-center">
               <div className="row">
-                
-                    ${this.state.projects.map(project => (             
-                      <Projects 
-                          image = {this.state.img.map(i => i)}
-                          id = {project.id}
-                          title= {project.title}
-                          href = {project.href}
-                          description = {project.description}
-                          technologies = {project.technologies}            
-                      />
-                    
-                ))}
+
+                {_.zip(projectsInfo.projects, projectsInfo.portfolioImg).map(value => (
+                  console.log(value),
+                  // console.log(value.id),
+                  <Projects
+                    image={value[1].portfolioImg}
+                    id={value[0].id}
+                    title={value[0].title}
+                    href={value[0].href}
+                    description={value[0].description}
+                    technologies={value[0].technologies}
+                  />
+                )
+                )}
+
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  );
-}
+  )
 }
 
 export default Portfolio;
