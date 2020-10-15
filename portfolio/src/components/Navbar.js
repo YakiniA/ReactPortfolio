@@ -22,7 +22,7 @@ export default class Navbar extends Component {
     return (
       <nav className="navbar navbar-expand-lg navbar-dark fixed-top navbar-default">
         <Link smooth to="/#home">
-          <a className="navbar-brand"><img src={image} className="navBarImg" width="250" height="250"></img></a>
+          <a className="navbar-brand" href="#home"><img src={image} className="navBarImg" alt="" width="250" height="250"></img></a>
         </Link>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse-main"  aria-controls="navbar-collapse-main" aria-expanded="false" aria-label="Toggle navigation" onClick={this.toggleMenu}>
           <span className="navbar-toggler-icon"></span>
@@ -32,22 +32,22 @@ export default class Navbar extends Component {
           <ul className="nav navbar-nav links ml-auto">
             <li className="nav-item nav-link">
               <Link smooth to="/#home">
-                <a class="active">Home<span class="sr-only">(current)</span></a>
+                <a class="active" href="#home">Home<span class="sr-only">(current)</span></a>
               </Link>
             </li>
             <li className="nav-item nav-link">
               <Link smooth to="/#about">
-                <a class="active">About</a>
+                <a class="active" href="#about">About</a>
               </Link>
             </li>
             <li className="nav-item nav-link">
               <Link smooth to="/#portfolio">
-                <a class="active">Portfolio</a>
+                <a class="active" href="#portfolio">Portfolio</a>
               </Link>
             </li>
             <li className="nav-item nav-link">
               <Link smooth to="/#contact">
-                <a class="active">Contact</a>
+                <a class="active" href="#contact">Contact</a>
               </Link>
             </li>
           </ul>

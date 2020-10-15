@@ -1,9 +1,6 @@
-import React, { Component } from "react";
+import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import myImg from "../img/MyImage.jpg";
-import Navbar from "../components/Navbar";
-import Contact from "../components/Contact";
-
 
 function About(){
 
@@ -15,12 +12,12 @@ function About(){
       <div className="container">
         <div className="row">
           <div className="col-sm-3 text-center">
-            <img src={myImg} className="imgResponsive img-circle"></img>
+            <img src={myImg} alt="" className="imgResponsive img-circle"></img>
           </div>
           <div className="col-sm-9">
-
-            <h2>About Me</h2>
+          <h2 class="aboutHeading">About Me</h2>
             <p className="lead">
+           
               Hi !!! My name is Yakini. Currently, I am pursuing a six month Full Stack Web Development Bootcamp degree at University of Utah. With each passing day, I am gaining the knowledge in various technologies and tools needed to build a successful career as a full stack web developer. 
               I graduated with a Bachelor's degree in Engineering. After graduation, I worked as a
               Programmer Analyst at Cognizant. And also, I worked in a team and did both performance and manual testing for various projects. The experience helped me to widen my skills such as teamwork, onsite-offshore coordination, and localization testing.
@@ -36,6 +33,7 @@ function About(){
               <br />
             </p>
 
+          <div className= "skillsSection">
             <h2>Skills</h2>
             <ul className="list-group">
               <li className="list-group-item active">HTML</li>
@@ -47,6 +45,7 @@ function About(){
               <li className="list-group-item">MySQL/MongoDB</li>
               <li className="list-group-item">Java</li>
             </ul>
+            </div>
           </div>
         </div>
       </div>

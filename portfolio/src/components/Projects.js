@@ -1,7 +1,5 @@
 import React from 'react'
 
- 
-
 export default function Projects(props) {
 
     return (
@@ -20,11 +18,11 @@ export default function Projects(props) {
               </div>
 
               <div className="card-action">
-                <a href={props.href} target="_blank" data-toggle="tooltip"
+                <a href={props.href} target="_blank" rel="noopener noreferrer" data-toggle="tooltip"
                   data-placement="top" title="View Online" className="btn btn-info btn-lg mr-3">
                   <i className="fa fa-external-link"></i>
                 </a>
-                <a href={props.source} target="_blank" data-toggle="tooltip"
+                <a href={props.source} target="_blank" rel="noopener noreferrer" data-toggle="tooltip"
                   data-placement="top" title="View Source" className="btn btn-info btn-lg ">
                   <i className="fa fa-github"></i>
                 </a>

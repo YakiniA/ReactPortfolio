@@ -7,13 +7,11 @@ import './style.css';
 function App() {
   return (
     <Router>
- 
           <div>
           <Wrapper>
           <Route exact path="/" component={IndexPage} />
           </Wrapper> 
           </div>
-        
     </Router>
   );
 }

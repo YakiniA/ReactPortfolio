@@ -23,8 +23,8 @@ return(
           <br />
           <a href="tel:5084943722" className="fa fa-phone icons"></a>
           <a href="mailto:yakinilatha09@gmail.com" className="fa fa-envelope icons"></a>
-          <a href="https://github.com/YakiniA" target="_blank" className="fa fa-github icons"></a>
-          <a href="https://www.linkedin.com/in/yakini-arumuga-kani-84265464/" target="_blank"
+          <a href="https://github.com/YakiniA" target="_blank" rel="noopener noreferrer" className="fa fa-github icons"></a>
+          <a href="https://www.linkedin.com/in/yakini-arumuga-kani-84265464/" target="_blank" rel="noopener noreferrer"
             className="fa fa-linkedin icons"></a>
 
 

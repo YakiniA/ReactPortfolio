@@ -1,4 +1,4 @@
-import React, { Component, useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import fightClub from '../img/welcomePage.png';
 import spaceExploration from '../img/spaceexplorationportfolio.jpg';
@@ -12,14 +12,12 @@ import teamGenerator from '../img/TeamGenerator.gif';
 import employeeTracker from '../img/employee-tracker.gif';
 import projects from "../projects.json";
 import Projects from './Projects';
-import Navbar from '../components/Navbar';
-import Contact from '../components/Contact';
 import $ from 'jquery';
 import _ from 'lodash';
 
 function Portfolio() {
 
-  const [projectsInfo, setProjectsInfo] = useState({
+  const [projectsInfo] = useState({
     projects,
     portfolioImg: [fightClub, spaceExploration, codingQuiz, weatherDashboard, workScheduler, burgerAppln, noteTaker, readMeGenerator, teamGenerator, employeeTracker]
   });

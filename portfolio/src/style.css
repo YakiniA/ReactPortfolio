@@ -73,9 +73,9 @@ html, body, #app, #app>div{
 	border: 1px solid grey;
 	background-color: rgb(230, 225, 225);
 	width:75%;
-	padding:1%;
+    padding:1%;
+    margin: 5% 30%;
 }
-
 
 /* ul.list-group:after {
 	clear: both;
@@ -84,9 +84,15 @@ html, body, #app, #app>div{
   } */
   
 .list-group{
-display:inline;
+  display:inline !important;
 }
 
+.aboutHeading{
+    margin: 5% 30%;
+}
+.skillsSection{
+    margin: 5% 30%;
+}
 .list-group-item li {
     display:inline !important;
     background-color: rgb(230, 225, 225) !important;
