@@ -8,7 +8,7 @@ import Contact from "../components/Contact";
 function About(){
 
   return (
-    <div>
+   
     <div id="about">
      
     <div className="aboutus padding"> 
@@ -53,8 +53,7 @@ function About(){
     </div>
     
   </div>
- 
-  </div>
+
   );
 }
 
