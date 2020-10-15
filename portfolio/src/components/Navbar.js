@@ -12,24 +12,35 @@ import { HashLink as Link } from 'react-router-hash-link';
 
   return (
     <nav className="navbar navbar-expand-sm">
-    <a className="navbar-brand" href="#home"><img src={image} className= "navBarImg" width="250" height="250"></img></a>
+    <Link smooth to="/#home">
+    <a className="navbar-brand"><img src={image} className= "navBarImg" width="250" height="250"></img></a>
+    </Link>
     <button className="custom-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapseEx"  aria-controls="navbarCollapseEx" aria-expanded={!isNavCollapsed ? true : false} aria-label="Toggle navigation" onClick={handleNavCollapse}>
       <span className="navbar-toggler-icon"></span>
     </button>
 
     <div className={`${isNavCollapsed ? 'collapse' : ''} navbar-collapse`}  id="navbarCollapseEx" >
-      <ul className="navbar-nav navbar-right mr-auto">
+      <ul className="nav navbar-nav navbar-right links">
         <li className="nav-item">
-        <Link smooth to="/#home">Home</Link>
+        
+        <Link smooth to="/#home">
+        <a class="active">Home</a>
+        </Link>
         </li>
         <li className="nav-item">
-        <Link smooth to="/#about">About</Link>
+        <Link smooth to="/#about">
+        <a class="active">About</a>
+        </Link>
         </li>
         <li className="nav-item">
-        <Link smooth to="/#portfolio">Portfolio</Link>
+        <Link smooth to="/#portfolio">
+        <a class="active">Portfolio</a>
+        </Link>
         </li>
         <li className="nav-item">
-        <Link smooth to="/#contact">Contact</Link>
+        <Link smooth to="/#contact">
+        <a class="active">Contact</a>
+        </Link>
         </li>
       </ul>
     </div>
