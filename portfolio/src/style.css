@@ -84,7 +84,9 @@ html, body, #app, #app>div{
   } */
   
 .list-group{
-  display:inline !important;
+  display:flex !important;
+  flex-direction: row;
+  background-color: rgb(230, 225, 225) !important;
 }
 
 .aboutHeading{
@@ -94,9 +96,7 @@ html, body, #app, #app>div{
     margin: 5% 30%;
 }
 .list-group-item li {
-    display:inline !important;
     background-color: rgb(230, 225, 225) !important;
-    
 }
 
 .row {
@@ -120,7 +120,7 @@ div.card:hover{
 .imgResponsive{
     max-width:380px;
     height:auto;
-    margin-top: 15px !important; 
+    margin-top: 35px !important; 
    
 }
 a.btn {

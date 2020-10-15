@@ -34,7 +34,7 @@ function About(){
             </p>
 
           <div className= "skillsSection">
-            <h2>Skills</h2>
+            <h2 class="skillsHeading">Skills</h2>
             <ul className="list-group">
               <li className="list-group-item active">HTML</li>
               <li className="list-group-item">CSS</li>

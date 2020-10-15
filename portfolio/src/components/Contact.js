@@ -1,5 +1,7 @@
 import React from 'react';
-
+import { FaPhoneAlt } from "react-icons/fa";
+import { GrMail } from "react-icons/gr";
+import { AiFillGithub , AiFillLinkedin} from "react-icons/ai";
 function Footer(){
 
 return(
@@ -21,15 +23,21 @@ return(
 
           <h3>Connect</h3>
           <br />
-          <a href="tel:5084943722" className="fa fa-phone icons"></a>
-          <a href="mailto:yakinilatha09@gmail.com" className="fa fa-envelope icons"></a>
-          <a href="https://github.com/YakiniA" target="_blank" rel="noopener noreferrer" className="fa fa-github icons"></a>
+          <a href="tel:5084943722">
+            <FaPhoneAlt style={{height: "3em", width:"3em", color: "white", marginRight:"2em"}}/> 
+          </a>
+          <a href="mailto:yakinilatha09@gmail.com">
+            <GrMail style={{height: "3em", width:"3em", color: "white", marginRight:"2em"}}/> 
+          </a>
+          <a href="https://github.com/YakiniA" target="_blank" rel="noopener noreferrer">
+            <AiFillGithub style={{height: "3em", width:"3em", color: "white", marginRight:"2em"}}/> 
+          </a>
           <a href="https://www.linkedin.com/in/yakini-arumuga-kani-84265464/" target="_blank" rel="noopener noreferrer"
-            className="fa fa-linkedin icons"></a>
+            className="fa fa-linkedin icons">
+            <AiFillLinkedin style={{height: "3em", width:"3em", color: "white"}}/> 
 
-
+            </a>
         </div>
-
       </div>
     </footer>
   </div>
