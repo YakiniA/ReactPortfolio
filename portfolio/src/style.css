@@ -39,7 +39,7 @@ html, body, #app, #app>div{
     background-color: transparent;
 }
 
-.homeImg {
+#home {
     background: url('img/officeImg.jpg'); 
     display: table; 
     height: 100%; 
