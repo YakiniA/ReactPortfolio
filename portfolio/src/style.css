@@ -74,17 +74,22 @@ html, body{
 	padding:1%;
 }
 
-ul.list-group:after {
+
+/* ul.list-group:after {
 	clear: both;
 	display: block;
 	content: "";
-  }
+  } */
   
-  .list-group-item {
-	  float: left;
-	  background-color: rgb(230, 225, 225);
-	  
-  }
+.list-group{
+display:inline;
+}
+
+.list-group-item li {
+    display:inline !important;
+    background-color: rgb(230, 225, 225) !important;
+    
+}
 
 .row {
     margin-right: -15px;

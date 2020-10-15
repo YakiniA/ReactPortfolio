@@ -11,7 +11,7 @@ import image from '../img/YARecent.png';
 
   return (
     <nav className="navbar navbar-expand-md">
-    <a className="navbar-brand" href="/"><img src={image} className= "navBarImg" width="250" height="250"></img></a>
+    <a className="navbar-brand" href="#home"><img src={image} className= "navBarImg" width="250" height="250"></img></a>
     <button className="custom-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapseEx"  aria-controls="navbarCollapseEx" aria-expanded={!isNavCollapsed ? true : false} aria-label="Toggle navigation" onClick={handleNavCollapse}>
       <span className="navbar-toggler-icon"></span>
     </button>
