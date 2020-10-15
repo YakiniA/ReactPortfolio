@@ -20,7 +20,8 @@ export default class Navbar extends Component {
   render() {
     const show = (this.state.menu) ? "show" : "";
     return (
-      <nav className="navbar navbar-expand-lg navbar-dark fixed-top navbar-default">
+      // <nav className="navbar navbar-expand-lg navbar-dark fixed-top">
+     <nav className="navbar navbar-expand-lg navbar-dark navbar-default fixed-top">
         <Link smooth to="/#home">
           <a className="navbar-brand" href="#home"><img src={image} className="navBarImg" alt="" width="250" height="250"></img></a>
         </Link>

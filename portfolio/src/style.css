@@ -75,6 +75,7 @@ html, body, #app, #app>div{
 	width:75%;
     padding:1%;
     margin: 5% 30%;
+
 }
 
 /* ul.list-group:after {
@@ -86,16 +87,22 @@ html, body, #app, #app>div{
 .list-group{
   display:flex !important;
   flex-direction: row;
+  /* float:left !important; */
   background-color: rgb(230, 225, 225) !important;
 }
 
 .aboutHeading{
     margin: 5% 30%;
 }
-.skillsSection{
+.skillsGroup{
     margin: 5% 30%;
 }
-.list-group-item li {
+
+.skillsHeading{
+    margin: 5% 30%;
+}
+
+.list-group-item{
     background-color: rgb(230, 225, 225) !important;
 }
 
@@ -118,7 +125,7 @@ div.card:hover{
 }
 
 .imgResponsive{
-    max-width:380px;
+    max-width:350px;
     height:auto;
     margin-top: 35px !important; 
    
@@ -297,10 +304,10 @@ footer{
         width:110%;
     }
  
-    .aboutus,
+    /* .aboutus,
     .projects{
         width:110%;
-    }
+    } */
 
     footer{
         width:110%;
@@ -313,10 +320,10 @@ footer{
         width:120%;
     }
  
-    .aboutus, 
+    /* .aboutus, 
     .projects{
         width:120%;
-    }
+    } */
    
     footer{
         width:120%;
@@ -329,9 +336,9 @@ footer{
         width:129%;
     }
  
-    .aboutus{
+    /* .aboutus{
         width:123%;
-    }
+    } */
 
     .projects{
         width:129%;

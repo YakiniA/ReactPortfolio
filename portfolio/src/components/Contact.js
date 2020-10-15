@@ -2,6 +2,7 @@ import React from 'react';
 import { FaPhoneAlt } from "react-icons/fa";
 import { GrMail } from "react-icons/gr";
 import { AiFillGithub , AiFillLinkedin} from "react-icons/ai";
+import Resume from "../Resume/Yakini Resume.pdf"
 function Footer(){
 
 return(
@@ -15,7 +16,7 @@ return(
           <h4>I am ready for hire and open to new opportunities</h4><br />
           <h4>Phone : 508-494-3722</h4>
           <h4>Email : yakinilatha09@gmail.com</h4><br />
-          <a href="Resume/Yakini Resume.pdf" className="btn btn-primary btn-light" download="Resume">Check out
+          <a href={Resume} className="btn btn-primary btn-light" download="Resume">Check out
             my Resume</a>
         </div>
 
@@ -32,8 +33,7 @@ return(
           <a href="https://github.com/YakiniA" target="_blank" rel="noopener noreferrer">
             <AiFillGithub style={{height: "3em", width:"3em", color: "white", marginRight:"2em"}}/> 
           </a>
-          <a href="https://www.linkedin.com/in/yakini-arumuga-kani-84265464/" target="_blank" rel="noopener noreferrer"
-            className="fa fa-linkedin icons">
+          <a href="https://www.linkedin.com/in/yakini-arumuga-kani-84265464/" target="_blank" rel="noopener noreferrer">
             <AiFillLinkedin style={{height: "3em", width:"3em", color: "white"}}/> 
 
             </a>

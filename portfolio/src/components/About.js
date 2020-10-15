@@ -11,10 +11,10 @@ function About(){
     <div className="aboutus"> 
       <div className="container">
         <div className="row">
-          <div className="col-sm-3 text-center">
+          <div className="col-sm-2 text-center">
             <img src={myImg} alt="" className="imgResponsive img-circle"></img>
           </div>
-          <div className="col-sm-9">
+          <div className="col-sm-10">
           <h2 class="aboutHeading">About Me</h2>
             <p className="lead">
            
@@ -33,9 +33,9 @@ function About(){
               <br />
             </p>
 
-          <div className= "skillsSection">
+         
             <h2 class="skillsHeading">Skills</h2>
-            <ul className="list-group">
+            <ul className="list-group skillsGroup">
               <li className="list-group-item active">HTML</li>
               <li className="list-group-item">CSS</li>
               <li className="list-group-item">Javascript</li>
@@ -45,7 +45,7 @@ function About(){
               <li className="list-group-item">MySQL/MongoDB</li>
               <li className="list-group-item">Java</li>
             </ul>
-            </div>
+          
           </div>
         </div>
       </div>
