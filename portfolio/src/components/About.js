@@ -11,7 +11,7 @@ function About(){
    
     <div id="about">
      
-    <div className="aboutus padding"> 
+    <div className="aboutus"> 
       <div className="container">
         <div className="row">
           <div className="col-sm-3 text-center">

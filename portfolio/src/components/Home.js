@@ -5,11 +5,11 @@ function Home() {
 
   return (
     <div id ="home">
-        <div className="landing-text">
-
-        <h1>Yakini Arumuga Kani</h1>
-        <h3>Full Stack Web Developer</h3>
-    
+        <div className="homeImg landing-text">
+          <div className="container">
+            <h1>Yakini Arumuga Kani</h1>
+            <h3>Full Stack Web Developer</h3>
+          </div>
         </div>
     </div>
   );
