@@ -1,12 +1,16 @@
 import React, { Component } from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import myImg from "../img/MyImage.jpg"
+import myImg from "../img/MyImage.jpg";
+import Navbar from "../components/Navbar";
+import Contact from "../components/Contact";
 
-class About extends Component {
 
- render(){
+function About(){
+
   return (
+    <div>
     <div id="about">
+     
     <div className="aboutus padding"> 
       <div className="container">
         <div className="row">
@@ -47,9 +51,11 @@ class About extends Component {
         </div>
       </div>
     </div>
+    
+  </div>
+ 
   </div>
   );
- }
 }
 
 export default About;

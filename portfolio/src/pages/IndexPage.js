@@ -3,7 +3,7 @@ import Home from "../components/Home";
 import About from "../components/About";
 import Portfolio from "../components/Portfolio";
 import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
+import Contact from "../components/Contact";
 
 function Index() {
 
@@ -13,7 +13,7 @@ function Index() {
         <Home />
         <About />
         <Portfolio />
-        <Footer />
+        <Contact />
     </div>
   );
   

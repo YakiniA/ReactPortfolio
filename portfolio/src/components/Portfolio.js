@@ -12,6 +12,8 @@ import teamGenerator from '../img/TeamGenerator.gif';
 import employeeTracker from '../img/employee-tracker.gif';
 import projects from "../projects.json";
 import Projects from './Projects';
+import Navbar from '../components/Navbar';
+import Contact from '../components/Contact';
 import $ from 'jquery';
 import _ from 'lodash';
 
