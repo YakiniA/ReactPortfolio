@@ -40,6 +40,7 @@ function About(){
               <li className="list-group-item">CSS</li>
               <li className="list-group-item">Javascript</li>
               <li className="list-group-item">JQuery</li>
+              <li className="list-group-item">React</li>
               <li className="list-group-item">Node</li>
               <li className="list-group-item">Express</li>
               <li className="list-group-item">MySQL/MongoDB</li>
