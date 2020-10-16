@@ -6,10 +6,10 @@ function Home() {
   return (
     <div id ="home">
         <div className="homeImg landing-text">
-          <div className="container">
-            <h1>Yakini Arumuga Kani</h1>
-            <h3>Full Stack Web Developer</h3>
-          </div>
+         
+            <p class="homePageHeading">Yakini Arumuga Kani<br/>
+               Full Stack Web Developer</p>
+       
         </div>
     </div>
   );

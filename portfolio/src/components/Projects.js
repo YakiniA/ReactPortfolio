@@ -9,7 +9,7 @@ export default function Projects(props) {
                    <img src={props.image} className="card-img-top" alt={props.title} style={{width: "100%"}}></img>
                 </div>
 
-              <div className="card-content">
+              <div className="card-content mt-3">
                 <span className="card-title">{props.title}</span>
 
                 <button type="button" className="btn btn-custom pull-right show-btn" data-rel={props.id} aria-label="Left Align">

@@ -45,8 +45,8 @@ function Portfolio() {
         <div className="projects padding">
           <div className="container">
             <div className="row">
-              <header className="text-center">
-                <h2 className="text-center">Projects</h2>
+              <header className="text-center mt-5">
+                <h2 className="text-center proj">Projects</h2>
               </header>
             </div>
             <br />

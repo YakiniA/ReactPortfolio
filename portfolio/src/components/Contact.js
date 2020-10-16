@@ -11,18 +11,19 @@ return(
       <div className="row">
         <div className="col-sm-6 text-center">
 
-          <h3>Contact Details</h3>
-          <br />
-          <h4>I am ready for hire and open to new opportunities</h4><br />
-          <h4>Phone : 508-494-3722</h4>
-          <h4>Email : yakinilatha09@gmail.com</h4><br />
-          <a href={Resume} className="btn btn-primary btn-light" download="Resume">Check out
+          <p className="proj">Contact Details
+          <br /> <br />
+            I am ready for hire and open to new opportunities<br />
+            Phone : 508-494-3722<br/>
+            Email : yakinilatha09@gmail.com<br /> <br />
+          <a href={Resume} className="btn btn-primary btn-light proj" download="Resume">Check out
             my Resume</a>
+            </p>
         </div>
 
         <div className="col-sm-6 text-center">
 
-          <h3>Connect</h3>
+          <h3 className = "proj">Connect</h3>
           <br />
           <a href="tel:5084943722">
             <FaPhoneAlt style={{height: "3em", width:"3em", color: "white", marginRight:"2em"}}/> 

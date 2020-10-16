@@ -2,7 +2,7 @@
 	box-sizing: border-box;
   }
 
-html, body, #app, #app>div{
+html, body{
 	height: 100%;
     width: 100%;
 
@@ -55,10 +55,14 @@ html, body, #app, #app>div{
 .landing-text {
     display: table-cell; 
 	text-align: center;
-	vertical-align: middle;
+    vertical-align: middle;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
 } 
 
-
+.proj{
+    font-size: 20px !important;
+}
 .aboutus{
 	background-image: url('img/keyboardImg.jpg') ;
 	display: table;
@@ -66,7 +70,9 @@ html, body, #app, #app>div{
  	width: 100%;
 	height: 100%;
 	background-size: cover;
-	background-attachment: fixed;
+    background-attachment: fixed;
+    background-position: center;
+    /* font-size: ; */
 }
 
 .lead{
@@ -74,9 +80,15 @@ html, body, #app, #app>div{
 	background-color: rgb(230, 225, 225);
 	width:75%;
     padding:1%;
-    margin: 5% 30%;
+    font-size: 20px;
+    /* margin: 5% 30%; */
 
 }
+
+.heading{
+    font-size: 20px;
+}
+
 
 /* ul.list-group:after {
 	clear: both;
@@ -85,13 +97,11 @@ html, body, #app, #app>div{
   } */
   
 .list-group{
-  display:flex !important;
-  flex-direction: row;
-  /* float:left !important; */
-  background-color: rgb(230, 225, 225) !important;
+  display:inline!important;
+
 }
 
-.aboutHeading{
+ .aboutHeading{
     margin: 5% 30%;
 }
 .skillsGroup{
@@ -100,10 +110,18 @@ html, body, #app, #app>div{
 
 .skillsHeading{
     margin: 5% 30%;
-}
+} 
+
+/* .homePageHeading{
+    font-size: "100px" !important;
+} */
 
 .list-group-item{
     background-color: rgb(230, 225, 225) !important;
+    display:inline !important;
+    font-size: 20px;
+  
+   
 }
 
 .row {
@@ -127,7 +145,7 @@ div.card:hover{
 .imgResponsive{
     max-width:350px;
     height:auto;
-    margin-top: 35px !important; 
+    margin: 30px 0 !important; 
    
 }
 a.btn {
@@ -280,7 +298,7 @@ footer{
     font-size:18px;
 }
 
- @media only screen and (max-device-width: 415px) {
+ /* @media only screen and (max-device-width: 415px) {
    .landing-text h1{
       font-size: 250%;
    }
@@ -309,7 +327,7 @@ footer{
         width:110%;
     } */
 
-    footer{
+    /*footer{
         width:110%;
     }
    } 
@@ -325,7 +343,7 @@ footer{
         width:120%;
     } */
    
-    footer{
+   /* footer{
         width:120%;
     }
    } 
@@ -340,7 +358,7 @@ footer{
         width:123%;
     } */
 
-    .projects{
+  /*  .projects{
         width:129%;
     }
   
@@ -364,4 +382,4 @@ footer{
         width:150%;
     }
    } 
- 
+  */
