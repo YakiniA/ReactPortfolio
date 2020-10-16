@@ -10,10 +10,10 @@ function About(){
 
       <div className="aboutus">
         <div className="row">
-          <div className="col-sm-3 text-center">
+          <div className="col-md-3 text-center">
             <img src={myImg} alt="" className="imgResponsive img-circle"></img>
           </div>
-          <div className="col-sm-9 mt-5 mb-5">
+          <div className="col-md-9 mt-5 mb-5">
           <h2 className="heading">About Me</h2>
           <div>
             <p className="lead">
