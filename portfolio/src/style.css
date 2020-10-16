@@ -9,7 +9,7 @@ html, body{
 }
 
 .navbar{
-	background-color: #464747;
+	background-color: #102b3d;
     padding: 1% 0;
     font-size: 19px; 
     margin-bottom:0px !important;
@@ -82,14 +82,14 @@ ul.list-group:after {
   } */
 
   #home {
-    background: url('img/code-wallpaper.jpeg'); 
+    background: url('img/bgimg6.jpg'); 
     display: table; 
  	position:relative;
     width:100%;
     height:100%;
     background-size: cover;
     background-attachment: fixed;
-    padding: 23% 0;
+    padding: 25% 0;
     color: white;
 } 
 
@@ -99,8 +99,12 @@ ul.list-group:after {
     vertical-align: middle; 
     font-size: 30px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+   
 } 
-  
+
+.homePageHeading{
+    margin-top: -9%;
+}
 .list-group{
   display:inline!important;
 
@@ -168,7 +172,7 @@ footer{
 	height:100%;
 	display:table;
 	position: relative;
-	background-color: #464747;
+	background-color: #102b3d;;
 	padding: 5% 5% 10% 5%;
 	color: #FFF;
 

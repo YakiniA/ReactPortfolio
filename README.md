@@ -1,99 +1,43 @@
-# Unit 20 React Homework: React Portfolio
+## Portfolio
 
-Now that you've worked with React and have multiple projects to share, you'll be updating your portfolio and other materials to build toward being employer competitive. Creating a portfolio using React will help set you apart from other developers whose portfolios do not use some of the latest technologies.
+This assignment mainly focuses on updating the already existing portfolio using React. The web application is primarily developed by using Bootstrap and responsive view achieved by using media queries as needed. This is an updated portfolio with more information and project details.
 
-If you are opting out of career services, this is *still a required assignment*. Part of being a web developer means being a part of a community. Having a place to share your projects is *necessary* if you're applying for jobs, but is still *critical* on your journey as a developer.
+### About Home Page
 
-## Requirements
+* This page has a navigation bar(navbar) with About, Portfolio, Contact Us links on the right side. On clicking the links results in the respective section.
+* The navbar is responsive when viewed on different devices with the help of Bootstrap.
+* In main section, it contains only name and role on Home Page.
 
-* Updated portfolio featuring 6 total projects
+### About Me Section
 
-* Use React
+* Contain personal details including bio, name, and information.
+* Used Bootstrap's grid system (containers, rows, and columns) to get a proper view on various screens.
 
-* A `Header` component that appears on multiple pages
+### Portfolio Section
 
-* A single `Project` component that will be used multiple times on a single page 
+* Bootstrap's card is used for aligning the images with text properly.
+* The images and the layout are highly responsive.
+* On clicking the icon near the Project title on the card, displays project information.
 
-* Navigation with React Router, dynamic rendering, or another third part router
+### Contact Section
 
-* A `Footer` component that appears on multiple pages
+* Used Bootstrap's grid system (containers, rows, and columns) to get a proper view on various screens.
+* In this section 'Check out my Resume' is present, on clicking displays the Resume to download.
+* Social media links are present at the bottom, on clicking that displays respective pages.
 
-* Update GitHub profile with pinned repositories featuring those same projects
+#### Screenshots
 
-* Deploy this site to GitHub Pages using the [Create React App docs for deployment.](https://create-react-app.dev/docs/deployment/#github-pages)
+<p style ="text-align:center;">
+<img src="img/HomePage.png" width="380" alt= "AboutPage" height="350"/>
+<img src="img/AboutUs.png"  width="380" alt="Portfolio Page" height="350"/>
+<img src="img/Portfolio.png" width="380" alt="Projects Page" height="350"/>
+<img src="img/Contact.png"  width="380" alt="Contact Page" height="350"/>
+</p>
 
-## Grading
+Here's the link to my developed Website : [RecentPortfolio](https://yakinia.github.io/Portfolio/)
 
-| Requirement    | Weight |
-| -------------- | ------ |
-| Portfolio      | 90%    |
-| GitHub Profile | 10%    |
+##### References
 
-
-## Instructions
-
-* [Updated Portfolio](#updated-portfolio)
-
-* [Design](#design)
-
-* [React](#react)
-
-* [Updated LinkedIn Profile](#updated-linkedin-profile)
-
-### Updated Portfolio
-
-Your updated site should still have all of the content it previously had:
-
-* Your name
-
-* Links to your GitHub profile & LinkedIn page as well as your email address and phone number
-
-* A link to a PDF of your resume with updated projects
-
-* A list of projects. For each project, make sure you have the following:
-
-  * Project title
-
-  * Link to the deployed version
-
-  * Link to the GitHub repository
-
-  * GIF or screenshot of the deployed application
-
-
-#### Design
-
-As with the previous portfolio homework, "good" design is subjective. Your site should look
-"polished." Here are a few guidelines on what that means:
-
-* Mobile-first design
-
-* Choose a color palette for your site so it doesn't just look like
-the default bootstrap theme or an unstyled HTML site. You may we
-
-* Make sure the font size is large enough to read, and that the colors don't cause eye strain.
-
-* If you want to go above and beyond, try using animations and react component libraries. Note 
-that this will _not_ affect your grade, but it may impact how potentials employers gauge your knowledge.
-
-### React
-
-Additionally, this new portfolio should be created using React.
-
-At a minimum, your portfolio should include the following:
-
-* A `Header` component that appears on multiple pages
-
-* A single `Project` component that will be used multiple times on a single page 
-
-* Navigation with React Router, dynamic rendering, or another third part router
-
-* A `Footer` component that appears on multiple pages
-
-
-### Updated LinkedIn Profile 
-
-Make sure to update your LinkedIn Profile with the new skills you've acquired since the last time it was updated.
-
-- - -
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+Bootstrap : [Bootstrap Documentation](https://getbootstrap.com/docs/4.5/getting-started/introduction/)<br/>
+W3Schools : [W3Schools-ForStyling](https://www.w3schools.com/css/css_howto.asp)<br/>
+Youtube video : [Youtube video](https://www.youtube.com/watch?time_continue=122&v=Zn64_IVLO88&feature=emb_title)

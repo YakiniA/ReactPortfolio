@@ -5,17 +5,16 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function Home() {
 
   return (
-    <div id ="home">
-        <div className="landing-text">
-          <div className="row">
-             <div className="col-md text-center">
-             
-                <p class="homePageHeading">Yakini Arumuga Kani<br/>
-                  Full Stack Web Developer</p>
-               </div>
-            </div>
-        </div>
-    </div>
+  
+      <div id ="home">
+      <div className="landing-text">
+
+          <p class="homePageHeading">Yakini Arumuga Kani<br/>
+              Full Stack Web Developer</p>
+
+      </div>
+      </div>
+
   );
   }
 

@@ -35,22 +35,22 @@ export default class Navbar extends Component {
           <ul className="nav navbar-nav links ml-auto">
             <li className="nav-item nav-link">
               <Link smooth to="/#home">
-                <a class="active" href="#home">Home<span class="sr-only">(current)</span></a>
+                <a class="active" href="#home" onClick={this.toggleMenu}>Home<span class="sr-only">(current)</span></a>
               </Link>
             </li>
             <li className="nav-item nav-link">
               <Link smooth to="/#about">
-                <a class="active" href="#about">About</a>
+                <a class="active" href="#about" onClick={this.toggleMenu}>About</a>
               </Link>
             </li>
             <li className="nav-item nav-link">
               <Link smooth to="/#portfolio">
-                <a class="active" href="#portfolio">Portfolio</a>
+                <a class="active" href="#portfolio" onClick={this.toggleMenu}>Portfolio</a>
               </Link>
             </li>
             <li className="nav-item nav-link">
               <Link smooth to="/#contact">
-                <a class="active" href="#contact">Contact</a>
+                <a class="active" href="#contact" onClick={this.toggleMenu}>Contact</a>
               </Link>
             </li>
           </ul>
