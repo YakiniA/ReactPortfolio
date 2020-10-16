@@ -40,17 +40,16 @@ html, body{
 }
 
 #home {
-    background: url('img/officeImg.jpg'); 
+    background: url('img/officeImg.jpg') center center fixed; 
     display: table; 
     height: 100%; 
  	position:relative;
 	width:100%;
     background-size: cover;
     color: white;
-    background-attachment: fixed; 
-    background-position: center;
-    padding-top: 25%;
-    padding-bottom: 25%; 
+    /* padding-top: 25%;
+    padding-bottom: 25%;  */
+    padding: 23% 0;
 }
 .landing-text {
     display: table-cell; 
@@ -60,9 +59,6 @@ html, body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
 } 
 
-.proj{
-    font-size: 20px !important;
-}
 .aboutus{
 	background-image: url('img/keyboardImg.jpg') ;
 	display: table;
@@ -86,9 +82,12 @@ html, body{
 }
 
 .heading{
-    font-size: 20px;
+    font-size: 25px;
 }
 
+.contents{
+    font-size:20px;
+}
 
 /* ul.list-group:after {
 	clear: both;
@@ -100,7 +99,7 @@ html, body{
   display:inline!important;
 
 }
-
+/* 
  .aboutHeading{
     margin: 5% 30%;
 }
@@ -110,7 +109,7 @@ html, body{
 
 .skillsHeading{
     margin: 5% 30%;
-} 
+}  */
 
 /* .homePageHeading{
     font-size: "100px" !important;

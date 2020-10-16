@@ -46,7 +46,7 @@ function Portfolio() {
           <div className="container">
             <div className="row">
               <header className="text-center mt-5">
-                <h2 className="text-center proj">Projects</h2>
+                <h2 className="text-center heading">Projects</h2>
               </header>
             </div>
             <br />
