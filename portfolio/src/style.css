@@ -40,34 +40,37 @@ html, body{
 }
 
 #home {
-    background: url('img/officeImg.jpg') center center fixed; 
+    background: url('img/officeImg.jpg'); 
     display: table; 
-    height: 100%; 
+   /* height: 100%; */
  	position:relative;
-	width:100%;
+    width:100%;
+    height:100%;
     background-size: cover;
-    color: white;
+    background-attachment: fixed;
+    padding: 23% 0;
+} 
     /* padding-top: 25%;
     padding-bottom: 25%;  */
-    padding: 23% 0;
-}
+  
+
 .landing-text {
     display: table-cell; 
 	text-align: center;
-    vertical-align: middle;
+    vertical-align: middle; 
     font-size: 30px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
 } 
 
 .aboutus{
 	background-image: url('img/keyboardImg.jpg') ;
-	display: table;
+	display: table; 
  	position:relative;
  	width: 100%;
 	height: 100%;
 	background-size: cover;
     background-attachment: fixed;
-    background-position: center;
+    background-position: center center;
     /* font-size: ; */
 }
 
@@ -89,40 +92,29 @@ html, body{
     font-size:20px;
 }
 
-/* ul.list-group:after {
+ul.list-group:after {
 	clear: both;
 	display: block;
 	content: "";
+  } 
+
+  /* .list-group-item {
+	  float: left;
+	  background-color: rgb(230, 225, 225);
+      font-size: 20px;
   } */
+
   
 .list-group{
   display:inline!important;
 
-}
-/* 
- .aboutHeading{
-    margin: 5% 30%;
-}
-.skillsGroup{
-    margin: 5% 30%;
-}
-
-.skillsHeading{
-    margin: 5% 30%;
-}  */
-
-/* .homePageHeading{
-    font-size: "100px" !important;
-} */
+} 
 
 .list-group-item{
     background-color: rgb(230, 225, 225) !important;
     display:inline !important;
     font-size: 20px;
-  
-   
 }
-
 .row {
     margin-right: -15px;
     margin-left: -15px;
@@ -142,7 +134,7 @@ div.card:hover{
 }
 
 .imgResponsive{
-    max-width:350px;
+    max-width:300px;
     height:auto;
     margin: 30px 0 !important; 
    
@@ -296,6 +288,31 @@ footer{
     background-color: transparent;
     font-size:18px;
 }
+
+@media only screen and (max-device-width: 1070px) {
+    .list-group-item{
+   
+        float: left !important;
+    }
+
+}
+/* 
+@media only screen and (max-device-width: 928px) {
+    .list-group-item{
+
+        font-size: 13px;
+    }
+
+}
+
+@media only screen and (max-device-width: 824px) {
+    .list-group-item{
+
+       float: left !important;
+    }
+
+} */
+
 
  /* @media only screen and (max-device-width: 415px) {
    .landing-text h1{

@@ -2,7 +2,7 @@
     {
       "id": 1,
       "title": "The Fight Club",
-      "href": "https://github.com/AtimaB/The-Fight-Club",
+      "href": "https://the-fight-club.herokuapp.com/",
       "source": "https://github.com/AtimaB/The-Fight-Club",
       "description": "Real time gaming app where two users can fight with each other, and at the end of the game displays their scores.",
       "technologies": "Technologies Used : Node, Express, SocketIO, MySQL, Handlebars"
@@ -42,7 +42,7 @@
     {
       "id":6,
       "title": "Eat-Da Burger",
-      "href": "https://github.com/YakiniA/13-NodeExpress-Handlebars",
+      "href": "https://evening-depths-68682.herokuapp.com/",
       "source": "https://github.com/YakiniA/13-NodeExpress-Handlebars",
       "description": "Eat-Da Burger is an application which helps to add the burgers, after being added is displayed with `Devour it!` button and can get the burger `Devoured` by pressing the `Devour it!` button.",
       "technologies": "Technologies Used : Node, Express, Handlebars, MySQL, ORM"
@@ -50,7 +50,7 @@
     {
       "id":7,
       "title": "Note taker",
-      "href": "https://github.com/YakiniA/11-Express-NoteTaker",
+      "href": "https://nodejs-express-notetaker-11.herokuapp.com/",
       "source": "https://github.com/YakiniA/11-Express-NoteTaker",
       "description": "The purpose of this application is to develop a note taker that can be used to write, save, and delete notes. This application uses node with express backend to save and retrieve note data from the JSON file.",
       "technologies": "Technologies Used : HTML, Bootstrap CSS, Node, Express."
