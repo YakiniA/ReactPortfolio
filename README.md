@@ -13,16 +13,16 @@ This assignment mainly focuses on creating portfolio using React. The web applic
 * Faced challenge while doing dynamic rendering. After browsing, figured out an easy way to loop through two different array with the help of `lodash`.
 * In old portfolio using HTML, easily navigate to particular section of page using `href = #home` but in react it is difficult and is achieved with the help of `react-router-hash-link` library.
 
-#### Screenshots
-
-<p style ="text-align:center;">
-<img src="img/snip1.png" width="380" alt= "AboutPage" height="350"/>
-<img src="img/snip2.png"  width="380" alt="Portfolio Page" height="350"/>
-<img src="img/snip3.png" width="380" alt="Projects Page" height="350"/>
-<img src="img/snip4.png"  width="380" alt="Contact Page" height="350"/>
-</p>
+### Link
 
 Here's the link to my developed Website : [React-Portfolio](https://yakinia.github.io/ReactPortfolio/)
+
+#### Screenshots
+
+![Screenshot1](portfolio/src/img/snip1.png)
+![Screenshot1](portfolio/src/img/snip2.png)
+![Screenshot1](portfolio/src/img/snip3.png)
+![Screenshot1](portfolio/src/img/snip4.png)
 
 ##### References
 
