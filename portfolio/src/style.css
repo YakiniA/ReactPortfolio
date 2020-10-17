@@ -90,7 +90,7 @@ ul.list-group:after {
     background-size: cover;
     background-attachment: fixed;
     padding: 25% 0;
-    color: white;
+    color: rgb(196, 189, 189);
 } 
 
 .landing-text {
@@ -99,7 +99,7 @@ ul.list-group:after {
     display: table-cell; 
 	text-align: center;
     vertical-align: middle; 
-    font-size: 30px;
+    font-size: 45px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
    
 } 
@@ -288,6 +288,34 @@ footer{
     font-size:18px;
 }
 
+:root {
+    --mainColor: white;
+  }
+  
+  body {
+    align-items: center;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    height: 100vh;
+    justify-content: center;
+  }
+  
+  a {
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 4px 4px;
+    color: var(--mainColor);
+    text-decoration: none;
+  }
+  
+  a:hover {
+
+  text-shadow: 0px 0px 0 white,1px 1px 0 white,2px 2px white,3px 3px 0 ,4px 4px 0 white,5px 5px 0 rgb(161,117,50),6px 6px 0 rgb(144,103,39),7px 7px 0 rgb(130,91,31),8px 8px 0 
+  rgb(120,83,25),9px 9px 0 rgb(108,73,20),10px 10px 0 rgb(93,63,13),11px 11px 0 rgb(60,54,12),12px 12px 0
+  rgb(63,41,8),13px 13px 0
+  }
+  
 
 @media only screen and (max-device-width: 1070px) {
     .list-group-item{

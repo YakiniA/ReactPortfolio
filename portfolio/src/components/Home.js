@@ -9,8 +9,8 @@ function Home() {
       <div id ="home">
       <div className="landing-text">
         
-          <p className="homePageHeading">Yakini Arumuga Kani <br/>
-          Full Stack Web Developer </p>
+          <p className="homePageHeading"><a href="/#"> Yakini Arumuga Kani <br/>
+          Full Stack Web Developer  </a></p>
       
       </div>
       </div>
