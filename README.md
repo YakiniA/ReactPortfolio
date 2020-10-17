@@ -4,14 +4,15 @@ This assignment mainly focuses on creating portfolio using React. The web applic
 
 ### Description
 
-* Breaking the functionality into Components so that for reusing across multiple poages. 
+* Breaking the functionality into Components so that for reusing across multiple pages. 
 * Maintained the project component, where dynamic rendering of information is done with the help of projects.json file and that will be used multiple times on a single page.
 * Used the Hash Router for routing.
 
 ### Challenges Faced
 
 * Faced challenge while doing dynamic rendering. After browsing, figured out an easy way to loop through two different array with the help of `lodash`.
-* In old portfolio using HTML, easily navigate to particular section of page using `href = #home` but in react it is difficult and is achieved with the help of `react-router-hash-link` library.
+* In old portfolio using HTML, easily navigated to particular section of page using `href = #home` but in react it is difficult and is achieved with the help of `react-router-hash-link` library.
+* Got more warnings as I included the same HTML syntax on react.
 
 ### Link
 
