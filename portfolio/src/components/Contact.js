@@ -11,14 +11,14 @@ return(
       <div className="row">
         <div className="col-sm-6 text-center">
 
-          <p className="heading">Contact Details
+          <div className="heading">Contact Details
           <br /> <br />
-           <p class="contents"> I am ready for hire and open to new opportunities<br />
+           <div className="contents"> I am ready for hire and open to new opportunities<br />
             Phone : 508-494-3722<br/>
-            Email : yakinilatha09@gmail.com<br /> <br /></p>
+            Email : yakinilatha09@gmail.com<br /> <br /></div>
           <a href={Resume} className="btn btn-primary btn-light contents" download="Resume">Check out
             my Resume</a>
-            </p>
+            </div>
 
         </div>
 

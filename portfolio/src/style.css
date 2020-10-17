@@ -10,29 +10,39 @@ html, body{
 
 .navbar{
 	background-color: #102b3d;
-    padding: 1% 0;
+    /* padding: 1% 0; */
     font-size: 19px; 
     margin-bottom:0px !important;
-
+    height : 100px !important;
+ 
 }
 
 .navBarImg{
-    margin-top: -110px;
-    margin-left: -65px;
+    margin-top: -11px;
+    margin-left: -6px;
    
 }
 
-.navbar-default .navbar-nav>li>a {
+/* .navbar-default .navbar-nav>li>a {
+    color: white;
+} */
+
+.navbar-nav>li>a {
     color: white;
 }
 
-.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+/* .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #a8a8a7;
+    background-color: transparent;
+} */
+
+.navbar-nav>li>a:focus, .navbar-nav>li>a:hover {
     color: #a8a8a7;
     background-color: transparent;
 }
 
 .homePageHeading{
-    margin-top: -15%;
+    margin-top: -10%;
     color:white;
 }
 
@@ -310,6 +320,14 @@ footer{
     #home{
        padding: 40% 0;
     }
+ }
+
+ @media only screen and (max-device-width: 991px) {
+    .navbar{
+        height : 100px !important;
+        margin-top: -55px;
+    }
+
  }
 
  @media only screen and (max-device-width: 770px) {
