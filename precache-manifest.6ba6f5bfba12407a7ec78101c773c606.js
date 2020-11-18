@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b5fa1def36ab680d9414467db745ef67",
+    "revision": "f97a606f3aef2b13fd17a3e5574e29b4",
     "url": "/ReactPortfolio/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ReactPortfolio/static/css/2.d9ad5f5c.chunk.css"
   },
   {
-    "revision": "8d7d4c8582c1da5ecf19",
-    "url": "/ReactPortfolio/static/css/main.59e92f33.chunk.css"
+    "revision": "eeb61923195e17145641",
+    "url": "/ReactPortfolio/static/css/main.78c0a859.chunk.css"
   },
   {
     "revision": "090d1fba6b1b1ba0d3f4",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ReactPortfolio/static/js/2.a66f399b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8d7d4c8582c1da5ecf19",
-    "url": "/ReactPortfolio/static/js/main.061f09df.chunk.js"
+    "revision": "eeb61923195e17145641",
+    "url": "/ReactPortfolio/static/js/main.6f55d00a.chunk.js"
   },
   {
     "revision": "97a1c7d0b592075495b7",
@@ -68,16 +68,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ReactPortfolio/static/media/Yakini Resume.57df12ab.pdf"
   },
   {
-    "revision": "d4142f93827eb57b1cf678bb28831bd4",
-    "url": "/ReactPortfolio/static/media/bgimg6.d4142f93.jpg"
-  },
-  {
     "revision": "dfbd5a272ce500e33780980dd5581868",
     "url": "/ReactPortfolio/static/media/employee-tracker.dfbd5a27.gif"
-  },
-  {
-    "revision": "389dbf694e5e51dddf2d10999a0f7bea",
-    "url": "/ReactPortfolio/static/media/keyboardImg.389dbf69.jpg"
   },
   {
     "revision": "b17134b4d64b6fe38ad4cb4e36544572",
