@@ -3,25 +3,38 @@
   }
 
 html, body{
-	height: 100%;
-    width: 100%;
-
+    height: 100%;
+    width: 100%; 
+    background-image: url('img/portfolioBackground.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
 }
 
 .navbar{
 	background-color: #102b3d;
     /* padding: 1% 0; */
     font-size: 19px; 
-    margin-bottom:0px !important;
-    height : 100px !important;
+    /* margin-bottom:0px !important; */
+    /* height : 100px !important; */
+    /* height : 50% !important; */
+    min-height: 100px;
  
 }
 
 .navBarImg{
-    margin-top: -11px;
-    margin-left: -6px;
-   
+    /* margin-top: -11px;
+    margin-left: -6px; */
+    padding: 0 15px;
+    /* height: 120px;  */
+    line-height: 100px;
 }
+
+.navbar-toggler {
+    /* (80px - button height 34px) / 2 = 23px */
+    margin-top: 23px;
+    padding: 9px 10px !important;
+  }
 
 /* .navbar-default .navbar-nav>li>a {
     color: white;
@@ -42,12 +55,11 @@ html, body{
 }
 
 .homePageHeading{
-    margin-top: -10%;
+    margin-top : 5%;
     color:white;
 }
-
 .aboutus{
-	background-image: url('img/keyboardImg.jpg') ;
+	/* background-image: url('img/keyboardImg.jpg') ; */
 	display: table; 
  	position:relative;
  	width: 100%;
@@ -82,7 +94,7 @@ ul.list-group:after {
   } 
 
   #home {
-    background: url('img/bgimg6.jpg'); 
+    /* background: url('img/bgimg6.jpg');  */
     display: table;  
  	position:relative;
     width:100%;
@@ -100,6 +112,7 @@ ul.list-group:after {
 	text-align: center;
     vertical-align: middle; 
     font-size: 45px;
+    color: rgb(82, 123, 177);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
    
 } 
@@ -156,7 +169,6 @@ a.btn {
 }  */
 
 .projects{
-	background-image: url('img/portfolioBackground.jpg');
 	display: table; 
     position:relative;
 	width: 100%;
@@ -312,8 +324,8 @@ footer{
   a:hover {
 
   text-shadow: 0px 0px 0 white,1px 1px 0 white,2px 2px white,3px 3px 0 ,4px 4px 0 white,5px 5px 0 rgb(161,117,50),6px 6px 0 rgb(144,103,39),7px 7px 0 rgb(130,91,31),8px 8px 0 
-  rgb(120,83,25),9px 9px 0 rgb(108,73,20),10px 10px 0 rgb(93,63,13),11px 11px 0 rgb(60,54,12),12px 12px 0
-  rgb(63,41,8),13px 13px 0
+  /* rgb(120,83,25),9px 9px 0 rgb(108,73,20),10px 10px 0 rgb(93,63,13),11px 11px 0 rgb(60,54,12),12px 12px 0 */
+  /* rgb(63,41,8),13px 13px 0 */
   }
   
 
@@ -325,7 +337,7 @@ footer{
 
 }
 
-@media only screen and (max-device-width: 2607px) {
+/* @media only screen and (max-device-width: 2607px) {
    #home{
       padding: 26% 0;
    }
@@ -350,17 +362,24 @@ footer{
  }
 
  @media only screen and (max-device-width: 991px) {
-    .navbar{
+   .navbar{
         height : 100px !important;
         margin-top: -55px;
-    }
+    } 
 
- }
+ } */
 
  @media only screen and (max-device-width: 770px) {
-    #home{
+    /* #home{
        padding: 55% 0;
-    }
+    } */
+
+    .navbar-nav > li > a {
+        /* (100px - line-height of 27px) / 2 = 26.5px */
+        padding-top: 36.5px;
+        padding-bottom: 36.5px;
+        line-height: 37px;
+      }
  }
 
  @media only screen and (max-device-width: 767px) {
@@ -371,11 +390,11 @@ footer{
 
  }
 
- @media only screen and (max-device-width: 685px) {
+ /* @media only screen and (max-device-width: 685px) {
     #home{
        padding: 90% 0;
     }
- }
+ } */
 
  @media only screen and (max-device-width: 320px) {
     #home, .navbar, .aboutus, #contact{

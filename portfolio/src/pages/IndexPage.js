@@ -10,7 +10,7 @@ function Index() {
   return (
     <div>
         <Navbar /> 
-        <Home />
+        <Home /> 
         <About />
         <Portfolio />
         <Contact />
