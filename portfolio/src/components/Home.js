@@ -15,14 +15,13 @@ function Home() {
               </div>
 
               <div className="col-md-9">
-                <div>Hi, I'm </div>
+                <div className="homePageHeading">Hi, I'm </div>
               <p className="homePageHeading"><a href="/#"> Yakini Arumuga Kani <br/>
               Full Stack Web Developer  </a></p>
               </div>
           </div>
         </div>  
       </div>
-
   );
   }
 

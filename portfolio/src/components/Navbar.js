@@ -22,7 +22,6 @@ export default class Navbar extends Component {
     return (
       // <nav className="navbar navbar-expand-lg navbar-dark fixed-top       navbar-dark navbar-default     navbar navbar-expand-lg navbar-dark navbar-default fixed-top">
     
-    
      <nav className="navbar navbar-expand-lg navbar-dark fixed-top">
         <Link smooth to="/#home">
          <img src={image} className="navBarImg" alt="" width="150" height="100"></img>
