@@ -4,7 +4,7 @@ export default function Projects(props) {
 
     return (
         <div>    
-            <div className="card" style={{width: 350}}>
+            <div className="card" style={{ width: 350, height: 350 }}>
               <div className="card-image">
                    <img src={props.image} className="card-img-top" alt={props.title} style={{width: "100%"}}></img>
                 </div>
