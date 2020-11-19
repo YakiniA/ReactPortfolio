@@ -18,9 +18,10 @@ function About(){
           <div>
             <p className="lead mb-5">
            
-              Hi !!! My name is Yakini.Currently, I am pursuing a six month Full Stack Web Development Bootcamp degree at University of Utah. With each passing day, I am gaining the knowledge in various technologies and tools needed to build a successful career as a full stack web developer. 
+              Hi !!! My name is Yakini. I am a Full Stack Web Development Bootcamp graduate at the University of Utah. Hands-on experience in various technologies helped me build responsive websites that focus mainly on rich user experience.
+              My interest is developing projects on the MERN stack as it is more smooth, comfortable, and exciting.
               I graduated with a Bachelor's degree in Engineering. I had worked as Programmer Analyst and as a Test Engineer.
-              I look forward for new opportunities and find a place of work where I can apply my skills and widen my knowledge.
+              I look forward to new web development opportunities and find a workplace where I can apply my skills and widen my knowledge.
 
               <br />
               <br />
