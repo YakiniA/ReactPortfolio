@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/ReactPortfolio/static/css/main.eec5c0d2.chunk.css",
-    "main.js": "/ReactPortfolio/static/js/main.819aa436.chunk.js",
-    "main.js.map": "/ReactPortfolio/static/js/main.819aa436.chunk.js.map",
+    "main.css": "/ReactPortfolio/static/css/main.f06dde1c.chunk.css",
+    "main.js": "/ReactPortfolio/static/js/main.dea4a738.chunk.js",
+    "main.js.map": "/ReactPortfolio/static/js/main.dea4a738.chunk.js.map",
     "runtime-main.js": "/ReactPortfolio/static/js/runtime-main.ad87311a.js",
     "runtime-main.js.map": "/ReactPortfolio/static/js/runtime-main.ad87311a.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/ReactPortfolio/static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.a66f399b.chunk.js": "/ReactPortfolio/static/js/2.a66f399b.chunk.js",
-    "static/js/2.a66f399b.chunk.js.map": "/ReactPortfolio/static/js/2.a66f399b.chunk.js.map",
+    "static/js/2.389dcc14.chunk.js": "/ReactPortfolio/static/js/2.389dcc14.chunk.js",
+    "static/js/2.389dcc14.chunk.js.map": "/ReactPortfolio/static/js/2.389dcc14.chunk.js.map",
     "index.html": "/ReactPortfolio/index.html",
-    "precache-manifest.02527129cfebe41fc5e2037b17dd4b00.js": "/ReactPortfolio/precache-manifest.02527129cfebe41fc5e2037b17dd4b00.js",
+    "precache-manifest.e1cf427a5b72d68bc7ffe2737852676a.js": "/ReactPortfolio/precache-manifest.e1cf427a5b72d68bc7ffe2737852676a.js",
     "service-worker.js": "/ReactPortfolio/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/ReactPortfolio/static/css/2.d9ad5f5c.chunk.css.map",
-    "static/css/main.eec5c0d2.chunk.css.map": "/ReactPortfolio/static/css/main.eec5c0d2.chunk.css.map",
-    "static/js/2.a66f399b.chunk.js.LICENSE.txt": "/ReactPortfolio/static/js/2.a66f399b.chunk.js.LICENSE.txt",
+    "static/css/main.f06dde1c.chunk.css.map": "/ReactPortfolio/static/css/main.f06dde1c.chunk.css.map",
+    "static/js/2.389dcc14.chunk.js.LICENSE.txt": "/ReactPortfolio/static/js/2.389dcc14.chunk.js.LICENSE.txt",
     "static/media/CodingQuizPortfolio.jpg": "/ReactPortfolio/static/media/CodingQuizPortfolio.aa760cfd.jpg",
     "static/media/MyImage.jpg": "/ReactPortfolio/static/media/MyImage.a9416837.jpg",
     "static/media/ReadMeGenerator.jpg": "/ReactPortfolio/static/media/ReadMeGenerator.089f9f05.jpg",
@@ -26,14 +26,15 @@
     "static/media/Yakini Resume.pdf": "/ReactPortfolio/static/media/Yakini Resume.57df12ab.pdf",
     "static/media/employee-tracker.gif": "/ReactPortfolio/static/media/employee-tracker.dfbd5a27.gif",
     "static/media/style.css": "/ReactPortfolio/static/media/portfolioBackground.b17134b4.jpg",
+    "static/media/shiftyplanner.png": "/ReactPortfolio/static/media/shiftyplanner.b9009e54.png",
     "static/media/spaceexplorationportfolio.jpg": "/ReactPortfolio/static/media/spaceexplorationportfolio.1148f1dd.jpg",
     "static/media/welcomePage.png": "/ReactPortfolio/static/media/welcomePage.cd751b40.png"
   },
   "entrypoints": [
     "static/js/runtime-main.ad87311a.js",
     "static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.a66f399b.chunk.js",
-    "static/css/main.eec5c0d2.chunk.css",
-    "static/js/main.819aa436.chunk.js"
+    "static/js/2.389dcc14.chunk.js",
+    "static/css/main.f06dde1c.chunk.css",
+    "static/js/main.dea4a738.chunk.js"
   ]
 }
