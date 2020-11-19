@@ -7,7 +7,7 @@ function Footer(){
 
 return(
 <div id="contact">
-    <footer className="container">
+    <footer className="container-fluid">
       <div className="row">
         <div className="col-sm-6 text-center">
 

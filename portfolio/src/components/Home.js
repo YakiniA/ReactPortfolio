@@ -16,8 +16,8 @@ function Home() {
 
               <div className="col-md-9">
                 <div className="homePageHeading">Hi, I'm </div>
-              <p className="homePageHeading"><a href="/#"> Yakini Arumuga Kani <br/>
-              Full Stack Web Developer  </a></p>
+              <p className="homePageHeading"> Yakini Arumuga Kani <br/>
+              Full Stack Web Developer </p>
               </div>
           </div>
         </div>  
