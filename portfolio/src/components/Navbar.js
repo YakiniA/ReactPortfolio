@@ -34,7 +34,7 @@ export default class Navbar extends Component {
           <ul className="navbar-nav ml-auto">
             <li className="nav-item nav-link">
               <Link smooth to="/#home" onClick={this.toggleMenu}>
-                Home<span className="sr-only">(current)</span>
+               Home<span className="sr-only">(current)</span>
               </Link>
             </li>
             <li className="nav-item nav-link">

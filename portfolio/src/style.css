@@ -142,7 +142,10 @@ ul.list-group:after {
 }
 
 div.card:hover{
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    box-shadow: 8px 8px 5px rgb(153, 153, 153);
+    transform: scale(1.05);
+    cursor: pointer;
 }
 
 .imgResponsive{
@@ -216,6 +219,7 @@ footer{
 	font-size:22px;
 	font-weight: bold;
 } 
+
 .fa:hover{
 	color: #D5D5D5;
 	text-decoration: none;
@@ -329,9 +333,9 @@ footer{
   /* }
    */
 
-   .hi:hover{
+   /* .hi:hover{
     background-image: url('https://tenor.com/view/waving-wave-hand-emoji-gif-10897308');
-   }
+   } */
 
    .text {
     position: absolute;

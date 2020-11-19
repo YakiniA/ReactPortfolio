@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import shiftyPlanner from '../img/shiftyplanner.png'
 import fightClub from '../img/welcomePage.png';
 import spaceExploration from '../img/spaceexplorationportfolio.jpg';
 import codingQuiz from '../img/CodingQuizPortfolio.jpg';
@@ -19,7 +20,7 @@ function Portfolio() {
 
   const [projectsInfo] = useState({
     projects,
-    portfolioImg: [fightClub, spaceExploration, codingQuiz, weatherDashboard, workScheduler, burgerAppln, noteTaker, readMeGenerator, teamGenerator, employeeTracker]
+    portfolioImg: [shiftyPlanner, fightClub, spaceExploration, codingQuiz, weatherDashboard, workScheduler, burgerAppln, noteTaker, readMeGenerator, teamGenerator, employeeTracker]
   });
 
   useEffect(() => {
@@ -67,7 +68,6 @@ function Portfolio() {
                   />
                 )
                 )}
-
               </div>
             </div>
           </div>
