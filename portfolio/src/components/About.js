@@ -14,9 +14,9 @@ function About(){
             <img src={myImg} alt="" className="imgResponsive img-circle"></img>
           </div> */}
           {/* <div className="col mt-5 mb-5"> */}
-          <h2 className="heading">About Me</h2>
+          <h2 className="heading mb-3">About Me</h2>
           <div>
-            <p className="lead mb-5">
+            <p className="lead">
            
               Hi !!! My name is Yakini. I am a Full Stack Web Development Bootcamp graduate at the University of Utah. Hands-on experience in various technologies helped me build responsive websites that focus mainly on rich user experience.
               My interest is developing projects on the MERN stack as it is more smooth, comfortable, and exciting.
@@ -35,7 +35,7 @@ function About(){
             </div> 
             </div>
 
-            <div className="row">
+            <div className="row mt-5">
               <header className="text-center mr-3">
                 <h2 className="text-center heading">Skills</h2>
               </header>

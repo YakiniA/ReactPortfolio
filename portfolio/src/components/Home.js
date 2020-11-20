@@ -40,6 +40,7 @@ function Home() {
       function animateLetterIn(nw, i) {
       setTimeout(function() {
         nw[i].className = 'letter in';
+        // console.log(nw[i]);
       }, 340+(i*80));
       }
 
@@ -50,11 +51,14 @@ function Home() {
       for (var i = 0; i < content.length; i++) {
         var letter = document.createElement('span');
         letter.className = 'letter';
-        letter.innerHTML = content.charAt(i);
+        if (letter[i] === " ") {
+          letter.push("&nbsp;");
+        } else{
+          letter.innerHTML = content.charAt(i);
+        }
         word.appendChild(letter);
-        letters.push(letter);
+        letters.push(letter); 
       }
-
       wordArray.push(letters);
       }
 
@@ -67,13 +71,14 @@ function Home() {
   
       <div id ="home">
         <div className="landing-text">
+        <div className="container">
           <div className="row">
-              <div className="col-md-3 text-center">
+              <div className="col-md-6 text-center">
                 <img src={myImg} alt="" className="imgResponsive img-circle"></img>
               </div>
 
-              <div className="col-md-9">
-                <div className="hi homePageHeading">Hi, I'm </div>
+              <div className="col-md-6 mt-5 text-center">
+                <div className="homePageHeading">Hi, I'm </div>
               <p className="homePageHeading"> Yakini Arumuga Kani <br/>
               </p>
 
@@ -85,6 +90,7 @@ function Home() {
                 <span class="word midnight">cheap.</span> */}
               </p>
               </div>
+          </div>
           </div>
         </div>  
       </div>
