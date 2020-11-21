@@ -4,7 +4,7 @@
   margin:0;
   }
 
-body{
+/* body{
     background-image: url('img/portfolioBackground.jpg');
     background-size: cover;
     background-attachment: fixed;
@@ -13,6 +13,23 @@ body{
     font-size: 1em;
     align-items: center;
     justify-content: center;
+} */
+
+body:before {
+  content: "";
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+  background: url('img/portfolioBackground.jpg') no-repeat center center;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .navbar{
