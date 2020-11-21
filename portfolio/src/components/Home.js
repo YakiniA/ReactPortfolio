@@ -73,11 +73,7 @@ function Home() {
         <div className="landing-text">
         <div className="container">
           <div className="row">
-              <div className="col-md-6 text-center">
-                <img src={myImg} alt="" className="imgResponsive img-circle"></img>
-              </div>
-
-              <div className="col-md-6 mt-5 text-center">
+              <div className="col-sm-6 order-sm-12 mt-5 text-center">
               {/* 👋🏻 */}
                 <div className="homePageHeading"> Hi, I'm </div>
               <p className="homePageHeading"> Yakini Arumuga Kani <br/>
@@ -90,6 +86,10 @@ function Home() {
                 {/* <span class="word green">beautiful.</span>
                 <span class="word midnight">cheap.</span> */}
               </p>
+              </div>
+
+              <div className="col-sm-6 order-sm-1 text-center">
+                <img src={myImg} alt="" className="imgResponsive img-circle"></img>
               </div>
           </div>
           </div>
