@@ -24,7 +24,7 @@ export default class Navbar extends Component {
     
      <nav className="navbar navbar-expand-lg navbar-dark fixed-top">
         <Link smooth to="/#home">
-         <img src={image} className="navBarImg" alt="" width="150" height="100"></img>
+         <img src={image} className="navBarImg" alt="" width="180" height="120"></img>
         </Link>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"  aria-controls="#navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onClick={this.toggleMenu}>
           <span className="navbar-toggler-icon"></span>

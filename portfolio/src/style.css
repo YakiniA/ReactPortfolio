@@ -4,21 +4,6 @@
   margin:0;
   }
 
-/* html, body{
-    height: 100%;
-    width: 100%; 
-  
-} */
-
-/* body {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1em;
-  height: 100vh;
-  align-items: center;
-  display: flex; 
-  justify-content: center;
-} */
-
 body{
     background-image: url('img/portfolioBackground.jpg');
     background-size: cover;
@@ -26,33 +11,20 @@ body{
     background-position: center center;
     font-family: 'Montserrat', sans-serif;
     font-size: 1em;
-    /* height: 100vh; */
-    
     align-items: center;
     justify-content: center;
-
-    /* position: relative;
-    min-height: 100vh;
-    padding-bottom: 500px;   */
 }
 
 .navbar{
-	background-color: #102b3d;
-    /* padding: 1% 0; */
+  	background-color: #102b3d;
     font-size: 19px; 
-    /* margin-bottom:0px !important; */
-    /* height : 100px !important; */
-    /* height : 50% !important; */
-    min-height: 100px;
- 
+    /* min-height: 100px; */
+    padding: 0 !important;
 }
 
 .navBarImg{
-    /* margin-top: -11px;
-    margin-left: -6px; */
     padding: 0 15px;
-    /* height: 120px;  */
-    line-height: 100px;
+    /* line-height: 60px; */
 }
 
 .navbar-toggler {
@@ -61,18 +33,9 @@ body{
     padding: 9px 10px !important;
   }
 
-/* .navbar-default .navbar-nav>li>a {
-    color: white;
-} */
-
 .navbar-nav>li>a {
     color: white;
 }
-
-/* .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
-    color: #a8a8a7;
-    background-color: transparent;
-} */
 
 .navbar-nav>li>a:focus, .navbar-nav>li>a:hover {
     color: #a8a8a7;
@@ -83,26 +46,14 @@ body{
     margin-top : 5%;
     color:white;
 }
-/* .aboutus{
- background-image: url('img/keyboardImg.jpg') ;
-	display: table; 
- 	position:relative;
- 	width: 90%;
-	height: 100%;
-	background-size: cover;
-  background-attachment: fixed;
-  background-position: center center;
-} */
 
 .lead{
-  box-shadow: 0 4px 8px 0 #8a6d3b, 0 6px 20px 0 rgba(0, 0, 0, 0.19);  /* transform: scale(1.05); */
-	/* border: 1px solid grey; */
+  box-shadow: 0 4px 8px 0 #8a6d3b, 0 6px 20px 0 rgba(0, 0, 0, 0.19); /* transform: scale(1.05);  */
 	background-color: rgb(230, 225, 225);
 	width:100%;
   padding:2%;
   font-size: 20px;
-  /* margin: 5% 30%; */
-}
+} 
 
 .heading{
     color: white;
@@ -124,14 +75,11 @@ ul.list-group:after {
   }
 
  #home {
-    /* background: url('img/bgimg6.jpg');   */
-    /* background-size: cover;
-    background-attachment: fixed; */
     display: table;  
     position:relative;
     width:100%;
     height:100%;
-    padding: 20% 0;
+    padding: 18% 0;
     color: rgb(196, 189, 189);   
 }  
 
@@ -144,7 +92,6 @@ ul.list-group:after {
     font-size: 45px;
     color: rgb(82, 123, 177);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
-   
 } 
 
 .list-group{
@@ -179,7 +126,6 @@ ul.list-group:after {
 }
 
 div.card:hover{
-    /* border: 1px solid black; */
     box-shadow: 8px 8px 5px rgb(153, 153, 153);
     transform: scale(1.05);
     cursor: pointer;
@@ -203,47 +149,27 @@ a.btn {
     transition: all 0.1s 0s ease-out;
     z-index: 10;
 }
-/* .padding{
-	padding: 25px 0;
-	background-color: rgb(195, 193, 193);
-}  */
-
-/* .projects{
-	display: table; 
-  position:relative;
-	width: 100%;
-	height: 100%;
-	background-size: cover;
-	background-attachment: fixed;
-
-}  */
+ .padding{
+  padding: 0 15px;
+}  
 
 footer{
 	width:100% !important;
   height:100%; 
-  /* display: table; */
-  /* display:table;
-	position: relative;  */
 	background-color: #102b3d;;
 	padding: 5% 5% 10% 5%;
 	color: #FFF;
-  /* position: absolute; */
-  /* bottom: 0px; */
-  /* width: 100%; */
-  /* height: 500px; */
 }
 
 .icons{
 	padding: 15px;
 	font-size:30px !important;
 	color:#FFF;
-
 }
 
 .icons:hover{
 	color: #63bcfb;
 	text-decoration: none;
-	
 }
 
 .fa {
@@ -348,35 +274,6 @@ footer{
 :root {
     --mainColor: white;
   }
-/*   
-  body {
-    align-items: center;
-    display: flex;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1em;
-    height: 100vh;
-    justify-content: center;
-  } */
-  
-  /* a {
-    background-position: 0 100%;
-    background-repeat: repeat-x;
-    background-size: 4px 4px;
-    color: var(--mainColor);
-    text-decoration: none;
-  }
-  
-  a:hover {
-
-  text-shadow: 0px 0px 0 white,1px 1px 0 white,2px 2px white,3px 3px 0 ,4px 4px 0 white,5px 5px 0 rgb(161,117,50),6px 6px 0 rgb(144,103,39),7px 7px 0 rgb(130,91,31),8px 8px 0 
-  /* rgb(120,83,25),9px 9px 0 rgb(108,73,20),10px 10px 0 rgb(93,63,13),11px 11px 0 rgb(60,54,12),12px 12px 0 */
-  /* rgb(63,41,8),13px 13px 0 */
-  /* }
-   */
-
-   /* .hi:hover{
-    background-image: url('https://tenor.com/view/waving-wave-hand-emoji-gif-10897308');
-   } */
 
    .text {
     position: absolute;
@@ -435,55 +332,41 @@ footer{
     color: #c0392b;
   }
   
-  /* .green {
-    color: #16a085;
-  }
-  
-  .midnight {
-    color: #2c3e50;
-  } */
 @media only screen and (max-device-width: 1070px) {
     .list-group-item{
         float: left !important;
     }
 }
 
-/* @media only screen and (max-device-width: 2607px) {
+ @media only screen and (max-device-width: 2607px) {
    #home{
-      padding: 26% 0;
+      /* padding: 18% 0; */
+      padding: 16%
    }
 }
 
 @media only screen and (max-device-width: 2031px) {
     #home{
-       padding: 30% 0;
+       padding: 20% 0;
     }
  }
 
  @media only screen and (max-device-width: 1327px) {
     #home{
-       padding: 35% 0;
+       padding: 25% 0;
     }
  }
 
  @media only screen and (max-device-width: 1134px) {
     #home{
-       padding: 40% 0;
+       padding: 28% 0;
     }
  }
 
- @media only screen and (max-device-width: 991px) {
-   .navbar{
-        height : 100px !important;
-        margin-top: -55px;
-    } 
-
- } */
-
  @media only screen and (max-device-width: 770px) {
-    /* #home{
-       padding: 55% 0;
-    } */
+    #home{
+       padding: 43% 0;
+    } 
 
     .navbar-nav > li > a {
         /* (100px - line-height of 27px) / 2 = 26.5px */
@@ -493,29 +376,20 @@ footer{
       }
  }
 
- @media only screen and (max-device-width: 767px) {
-   .heading, .lead{
-       margin-left:8% !important;
-      
-   }
-
- }
-
- /* @media only screen and (max-device-width: 685px) {
-    #home{
-       padding: 90% 0;
-    }
- } */
-
- @media only screen and (max-device-width: 320px) {
-    #home, .navbar, .aboutus, #contact{
-       width:117%;
-    } 
- }
-/* 
  @media only screen and (max-device-width: 685px) {
-    #home, .navbar, .aboutus,.projects, #contact{
-       width:117%;
-    } 
- }*/
+    #home{
+       /* padding: 76% 0; */
+       padding: 53% 0;
+    }
 
+    #contact{
+      width: 110%;
+    }
+ } 
+
+ @media only screen and (max-device-width: 355px) {
+ 
+  #contact{
+    width: 120%;
+  }
+} 

@@ -6,16 +6,15 @@ function About(){
   return (
    
     <div id="about">
-
-      <div className="aboutus">
+      <div className="aboutus padding">
       <div className="container">
         <div className="row">
           {/* <div className="col-md-3 text-center">
             <img src={myImg} alt="" className="imgResponsive img-circle"></img>
           </div> */}
           {/* <div className="col mt-5 mb-5"> */}
-          <h2 className="heading mb-3">About Me</h2>
-          <div>
+          <h2 className="text-center heading mb-3">About Me</h2>
+        
             <p className="lead">
            
               Hi !!! My name is Yakini. I am a Full Stack Web Development Bootcamp graduate at the University of Utah. Hands-on experience in various technologies helped me build responsive websites that focus mainly on rich user experience.
@@ -32,8 +31,10 @@ function About(){
               Please, check out my resume for more information.
               <br />
             </p>
-            </div> 
+          
             </div>
+            <br />
+            <br />
 
             <div className="row mt-5">
               <header className="text-center mr-3">

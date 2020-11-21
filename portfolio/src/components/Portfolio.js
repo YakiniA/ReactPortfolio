@@ -41,19 +41,19 @@ function Portfolio() {
 
 
   return (
-    <div>
+    
       <div id="portfolio">
-        <div className="projects padding">
+        <div className="projects">
           <div className="container">
             <div className="row">
-              <header className="text-center mt-5">
-                <h2 className="text-center heading">Projects</h2>
-              </header>
+              {/* <header className="text-center mt-5"> */}
+                <h2 className="text-center heading padding mt-5">Projects</h2>
+              {/* </header> */}
             </div>
             <br />
             <br />
 
-            <div className="text-center">
+            {/* <div className="text-center"> */}
               <div className="row">
 
                 {_.zip(projectsInfo.projects, projectsInfo.portfolioImg).map(value => (
@@ -69,11 +69,11 @@ function Portfolio() {
                 )
                 )}
               </div>
-            </div>
+            {/* </div> */}
           </div>
         </div>
       </div>
-    </div>
+   
   )
 }
 
