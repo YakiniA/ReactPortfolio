@@ -4,7 +4,7 @@
   margin:0;
   }
 
-/* body{
+body{
     background-image: url('img/portfolioBackground.jpg');
     background-size: cover;
     background-attachment: fixed;
@@ -13,9 +13,9 @@
     font-size: 1em;
     align-items: center;
     justify-content: center;
-} */
+} 
 
-html::before {
+/* html::before {
   content: " ";
   display: block;
   background-image: url('img/portfolioBackground.jpg');
@@ -28,7 +28,7 @@ html::before {
   right: 0;
   position: fixed;
   z-index: -10; 
-}
+} */
 
 /* html::before {
   content: ' ';

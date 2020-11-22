@@ -2,7 +2,7 @@ import React from 'react';
 import { FaPhoneAlt } from "react-icons/fa";
 import { GrMail } from "react-icons/gr";
 import { AiFillGithub , AiFillLinkedin} from "react-icons/ai";
-import Resume from "../Resume/Yakini Resume.pdf"
+import Resume from "../Resume/Yakini_Resume.pdf"
 function Footer(){
 
 return(
