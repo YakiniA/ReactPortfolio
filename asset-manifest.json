@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/ReactPortfolio/static/css/main.bc653aef.chunk.css",
-    "main.js": "/ReactPortfolio/static/js/main.9cc232de.chunk.js",
-    "main.js.map": "/ReactPortfolio/static/js/main.9cc232de.chunk.js.map",
+    "main.css": "/ReactPortfolio/static/css/main.31976a0a.chunk.css",
+    "main.js": "/ReactPortfolio/static/js/main.d0df3c30.chunk.js",
+    "main.js.map": "/ReactPortfolio/static/js/main.d0df3c30.chunk.js.map",
     "runtime-main.js": "/ReactPortfolio/static/js/runtime-main.ad87311a.js",
     "runtime-main.js.map": "/ReactPortfolio/static/js/runtime-main.ad87311a.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/ReactPortfolio/static/css/2.d9ad5f5c.chunk.css",
     "static/js/2.389dcc14.chunk.js": "/ReactPortfolio/static/js/2.389dcc14.chunk.js",
     "static/js/2.389dcc14.chunk.js.map": "/ReactPortfolio/static/js/2.389dcc14.chunk.js.map",
     "index.html": "/ReactPortfolio/index.html",
-    "precache-manifest.6d416250ddc33af09070db4df6da78a6.js": "/ReactPortfolio/precache-manifest.6d416250ddc33af09070db4df6da78a6.js",
+    "precache-manifest.43727510f8bb752b8beb5ce894cc72d6.js": "/ReactPortfolio/precache-manifest.43727510f8bb752b8beb5ce894cc72d6.js",
     "service-worker.js": "/ReactPortfolio/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/ReactPortfolio/static/css/2.d9ad5f5c.chunk.css.map",
-    "static/css/main.bc653aef.chunk.css.map": "/ReactPortfolio/static/css/main.bc653aef.chunk.css.map",
+    "static/css/main.31976a0a.chunk.css.map": "/ReactPortfolio/static/css/main.31976a0a.chunk.css.map",
     "static/js/2.389dcc14.chunk.js.LICENSE.txt": "/ReactPortfolio/static/js/2.389dcc14.chunk.js.LICENSE.txt",
     "static/media/CodingQuizPortfolio.jpg": "/ReactPortfolio/static/media/CodingQuizPortfolio.aa760cfd.jpg",
     "static/media/MyImage.jpg": "/ReactPortfolio/static/media/MyImage.a9416837.jpg",
@@ -23,7 +23,7 @@
     "static/media/WeatherDashboardportfolio.jpg": "/ReactPortfolio/static/media/WeatherDashboardportfolio.7ff5fd79.jpg",
     "static/media/WorkdaySchedulerPortfolio.jpg": "/ReactPortfolio/static/media/WorkdaySchedulerPortfolio.6a0ce087.jpg",
     "static/media/YARecent.png": "/ReactPortfolio/static/media/YARecent.bd821f8f.png",
-    "static/media/Yakini Resume.pdf": "/ReactPortfolio/static/media/Yakini Resume.57df12ab.pdf",
+    "static/media/Yakini_Resume.pdf": "/ReactPortfolio/static/media/Yakini_Resume.97baad44.pdf",
     "static/media/employee-tracker.gif": "/ReactPortfolio/static/media/employee-tracker.dfbd5a27.gif",
     "static/media/style.css": "/ReactPortfolio/static/media/portfolioBackground.b17134b4.jpg",
     "static/media/shiftyplanner.png": "/ReactPortfolio/static/media/shiftyplanner.b9009e54.png",
@@ -34,7 +34,7 @@
     "static/js/runtime-main.ad87311a.js",
     "static/css/2.d9ad5f5c.chunk.css",
     "static/js/2.389dcc14.chunk.js",
-    "static/css/main.bc653aef.chunk.css",
-    "static/js/main.9cc232de.chunk.js"
+    "static/css/main.31976a0a.chunk.css",
+    "static/js/main.d0df3c30.chunk.js"
   ]
 }
